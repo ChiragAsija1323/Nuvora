@@ -1,0 +1,21 @@
+{
+  "merchant": "Nuvora",
+  "version": "1.0",
+  "description": "Premium AI-native laptop and accessories store",
+  "agent_api": {
+    "base_url": "/api/agent",
+    "endpoints": {
+      "catalog": { "method": "GET", "path": "/api/agent/catalog", "description": "Browse product catalog" },
+      "negotiate": { "method": "POST", "path": "/api/agent/negotiate", "description": "Submit a negotiation request" },
+      "checkout": { "method": "POST", "path": "/api/agent/checkout", "description": "Complete purchase via Razorpay" }
+    },
+    "auth": "open (demo mode)",
+    "protocols": ["ACP-compatible", "REST"]
+  },
+  "policies": {
+    "max_discount": "15%",
+    "min_margin": 15000,
+    "max_bundle_items": 2,
+    "currency": "INR"
+  }
+}
