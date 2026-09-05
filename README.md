@@ -1,12 +1,12 @@
-# MarginMind: AI Sales Agent (Razorpay AI Buildathon)
+# Nuvora: Agentic Commerce Platform
 
 ## Track 1: AI Growth & Agentic Commerce
 
-MarginMind is not just a chat bot—it's an **Economic Optimization Engine**. 
+Nuvora is not just a chat bot—it's an **Economic Optimization Engine**. 
 
 When a customer objects to a price during checkout (e.g., "Too expensive"), standard AI bots simply hand out flat discounts, destroying merchant margins. 
 
-MarginMind negotiates on **value**, not just price. It dynamically constructs bundles (adding high-value, low-cost accessories) to save the sale while strictly enforcing merchant economics.
+Nuvora negotiates on **value**, not just price. It dynamically constructs bundles (adding high-value, low-cost accessories) to save the sale while strictly enforcing merchant economics.
 
 ### Core Architecture: "The LLM Proposes, The Policy Engine Disposes"
 1. **The Intelligence (Gemini 1.5 Flash):** The LLM parses the customer's intent, reads the product catalog, and generates 3 candidate bundles.
@@ -16,7 +16,7 @@ MarginMind negotiates on **value**, not just price. It dynamically constructs bu
 
 ### Features
 * **Nuvora Storefront:** A premium, dark-mode mock ecommerce store.
-* **MarginMind Chat Widget:** A conversational negotiation interface.
+* **Nuvora Chat Widget:** A conversational negotiation interface.
 * **Merchant Control Room:** A real-time audit dashboard. This is the killer feature for B2B trust. It shows exactly *why* the AI rejected or approved a specific candidate bundle.
 
 ---
